@@ -1,0 +1,150 @@
+body {
+    font-family: "Titillium Web", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #252b42;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #ffcc00;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero {
+    background-color: #252b42;
+    color: #fff;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero .content {
+    max-width: 50%;
+    
+}
+
+.hero h1 {
+    color: #ffcc00;
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form button {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 15px;
+}
+
+form input {
+    width: 300px;
+}
+
+form button {
+    background-color: #ffcc00;
+    color: #252b42;
+    cursor: pointer;
+    width: 100px;
+}
+
+.hero .image {
+    max-width: 50%;
+}
+
+.hero .image img {
+    width: 100%;
+    border-radius: 10px;
+    border-radius: 50%;
+    height: 500px;
+}
+
+.page-content {
+    padding: 50px;
+    background-color:aliceblue;
+    color:#252b42;
+    padding: 50px 100px 50px 100px;
+
+}
+
+.page-content .container {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.page-content h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.page-content p {
+    font-size: 20px;
+    
+}
+
+.page-image {
+    margin-top: 20px;
+   
+    display: flex;
+    flex-direction: row;
+    margin-left: 300px;
+    margin-right: 50px;
+    padding: 50px;
+    justify-content: space-between;
+    
+}
+
+.page-image img {
+    width: 100%;
+    border-radius: 20px;
+    justify-content: space-between;
+   
+    
+}
+home{
+    margin-bottom: 250px;
+}
+h1{
+    text-decoration: underline #252b42 ;
+    
+}
